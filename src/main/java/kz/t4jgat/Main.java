@@ -4,13 +4,13 @@ import kz.t4jgat.LootBoxes.BravoCaseFactory;
 import kz.t4jgat.LootBoxes.Case;
 import kz.t4jgat.LootBoxes.CaseFactory;
 import kz.t4jgat.LootBoxes.GammaCaseFactory;
-import kz.t4jgat.NotificationSystem.GameStore;
+import kz.t4jgat.NotificationSystem.Inventory;
 import kz.t4jgat.NotificationSystem.Gamer;
 import kz.t4jgat.NotificationSystem.Observer;
 
 public class Main {
     public static void main(String[] args) {
-        GameStore gameStore = new GameStore();
+        Inventory gameStore = new Inventory();
         Observer firstGamer = new Gamer("David");
         Observer secondGamer = new Gamer("Bob");
         gameStore.addObserver(firstGamer);

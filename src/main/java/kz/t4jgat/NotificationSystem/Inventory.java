@@ -5,7 +5,7 @@ import kz.t4jgat.LootBoxes.Case;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GameStore implements Observed{
+public class Inventory implements Observed{
     private List<Case> lootList = new ArrayList<>();
     private List<Observer> activeGamers = new ArrayList<>();
 

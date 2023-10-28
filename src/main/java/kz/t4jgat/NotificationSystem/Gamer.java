@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
+// Observer object which observe updates in ivnentory
 public class Gamer implements Observer{
     Scanner sc = new Scanner(System.in);
     private String name;

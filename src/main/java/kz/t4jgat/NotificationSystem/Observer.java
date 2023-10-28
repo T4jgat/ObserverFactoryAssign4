@@ -4,6 +4,7 @@ import kz.t4jgat.LootBoxes.Case;
 
 import java.util.List;
 
+// Observer Interface
 public interface Observer {
-    void handleEvent(List<Case> inventory);
+    void handleEvent(List<Case> inventory); // method which handle updates in observer
 }
